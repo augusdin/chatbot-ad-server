@@ -7,7 +7,7 @@ app = FastAPI()
 # 允许跨域请求的来源
 origins = [
     "http://localhost:3000",  # 允许的前端应用地址
-    "https://chatnext4ad.vercel.app/",  # 如果有其他前端域名，可以在这里添加
+    "https://chatnext4ad.vercel.app",  # 如果有其他前端域名，可以在这里添加
 ]
 
 # 添加 CORS 中间件
