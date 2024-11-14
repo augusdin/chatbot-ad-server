@@ -20,6 +20,33 @@ class AdConfig(BaseModel):
             "display_format": "link_card",
             "advertiser_link": "https://www.lining.com/",
             "advertiser_id": "adB"
+        },
+        {
+            "id": 3,
+            "advertiser_name": "Xiaomi",
+            "product_description": "Innovative tech products including smartphones, smart home devices, and more.",
+            "use_case": "When the user talks about smartphones, smart home, or technology.",
+            "display_format": "link_card",
+            "advertiser_link": "https://www.mi.com/",
+            "advertiser_id": "adC"
+        },
+        {
+            "id": 4,
+            "advertiser_name": "IKEA",
+            "product_description": "Affordable and stylish furniture and home accessories from IKEA.",
+            "use_case": "When the user discusses home decor, furniture, or lifestyle.",
+            "display_format": "link_card",
+            "advertiser_link": "https://www.ikea.cn/cn/zh/",
+            "advertiser_id": "adD"
+        },
+        {
+            "id": 5,
+            "advertiser_name": "Luckin Coffee",
+            "product_description": "Delicious coffee and beverages from Luckin Coffee, served quickly and conveniently.",
+            "use_case": "When the user mentions coffee, beverages, or lifestyle.",
+            "display_format": "link_card",
+            "advertiser_link": "https://lkcoffee.com/",
+            "advertiser_id": "adE"
         }
     ])
 
