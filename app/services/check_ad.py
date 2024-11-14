@@ -51,7 +51,8 @@ def check_advertisement(messages: List[Dict[str, str]]) -> Dict[str, Union[str, 
                 {"role": "user", "content": prompt}
             ],
             max_tokens=150,
-            temperature=0.3
+            temperature=0.3,
+            response_format= { "type": "json_object" }
         )
 
         if not response.choices or not response.choices[0].message.content:
